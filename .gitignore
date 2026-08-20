@@ -7,7 +7,6 @@ node_modules
 out
 
 # Environment variables — NEVER commit these
-.env*
 !.env.example
 
 # Credential files — NEVER commit these
@@ -28,7 +27,6 @@ service-account*.json
 Thumbs.db
 
 # Editor
-.vscode
 .idea
 *.swp
 
@@ -85,3 +83,4 @@ scripts/seo-hire-*
 
 # generated changesets (NEVER commit)
 CHANGES.md
+config.bat

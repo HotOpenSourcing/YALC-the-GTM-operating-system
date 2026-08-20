@@ -5,8 +5,8 @@
   "type": "module",
   "description": "YALC GTM-OS web SPA (React + Vite + Tailwind + shadcn/ui)",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit"
   },
